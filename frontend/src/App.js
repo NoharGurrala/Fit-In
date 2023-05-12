@@ -19,6 +19,7 @@ import CheckIn from "./components/CheckIn/CheckIn";
 import CheckOut from "./components/CheckOut/CheckOut";
 import AdminPanel from "./components/AdminPanel/AdminPanel";
 import HoursSpent from "./components/HoursSpent/HoursSpent";
+import Home from "./components/Home/Home"
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       <Router>
         <NavigationBar />
         <Routes>
-          <Route exact path="/" element={<AboutGym />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<AboutGym />} />
           <Route path="/classschedule" element={<ClassSchedule />} />
           <Route path="/booked" element={<BookedClass />} />
