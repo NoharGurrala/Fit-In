@@ -55,16 +55,12 @@ function NavigationBar() {
             <>
               
               <Link to="/about" className={styles.link}>About Fit-In</Link>
-              <div className={styles.dropdown}>
-                <button className={styles.dropbtn}>User</button>
-                <div className={styles.dropdownContent}>
-                  <Link to="/scheduledclass" className={styles.link}>Book Class</Link>
-                  <Link to="/booked" className={styles.link}>Scheduled Classes</Link> 
-                  <Link to="/log" className={styles.link}>Log Hours</Link>
-                  <Link to="/activities" className={styles.link}>Activities</Link>
-                  <Link to="/logout" className={styles.link}>Logout</Link>
-                </div>
-              </div>
+              <Link to="/scheduledclass" className={styles.link}>Book Class</Link>
+              <Link to="/booked" className={styles.link}>Scheduled Classes</Link> 
+              <Link to="/log" className={styles.link}>Log Hours</Link>
+              <Link to="/activities" className={styles.link}>Activities</Link>
+              <Link to="/logout" className={styles.link}>Logout</Link>
+                
               
             </>
           )
