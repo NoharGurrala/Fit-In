@@ -18,7 +18,7 @@ function Activities() {
           "email": email
         };
 
-        const response = await axios.post(`${BASE_URL}${ACTIVITIES_API}`, json);
+        const response = await axios.post(`${ACTIVITIES_API}`, json);
         setData(response.data);
       }
     };

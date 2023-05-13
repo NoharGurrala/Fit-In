@@ -31,7 +31,7 @@ function FreeTrial() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post(`${BASE_URL}${FREE_TRIAL_API}`, {
+      const response = await axios.post(`${FREE_TRIAL_API}`, {
         name,
         email,
         contactNumber,
@@ -50,7 +50,7 @@ function FreeTrial() {
 
   const fetchMembers = async () => {
     try {
-      const response = await axios.get(`${BASE_URL}${FREE_TRIAL_API}`);
+      const response = await axios.get(`${FREE_TRIAL_API}`);
       setMembers(response.data);
     } catch (error) {
       console.error(error);

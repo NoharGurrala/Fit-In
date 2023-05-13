@@ -17,7 +17,7 @@ function CheckOut() {
         checkout: new Date(checkOut).toLocaleString(),
       };
       try {
-        await axios.post(`${BASE_URL}${CHECK_OUT_API}`, json);
+        await axios.post(`${CHECK_OUT_API}`, json);
         alert("Check out submitted successfully!");
         setCheckOut("");
         setEmail("");

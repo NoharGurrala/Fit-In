@@ -33,7 +33,7 @@ function ClassSchedule() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post(`${BASE_URL}${ENROLL_API}`, {
+      const response = await axios.post(`${ENROLL_API}`, {
         title,
         city,
         date,

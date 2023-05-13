@@ -15,7 +15,7 @@ function ScheduledClass() {
         date: date
       };
 
-      const response = await axios.post(`${BASE_URL}${SCHEDULED_CLASS_API}`, json);
+      const response = await axios.post(`${SCHEDULED_CLASS_API}`, json);
       setScheduledClasses(response.data);
     }
   };
@@ -34,7 +34,7 @@ function ScheduledClass() {
     };
 
     try {
-      const response = await axios.post(`${BASE_URL}${INSERT_INDIVIDUAL_CLASS_API}`, booking);
+      const response = await axios.post(`${INSERT_INDIVIDUAL_CLASS_API}`, booking);
       console.log(response.data);
     } catch (error) {
       console.error(error);

@@ -22,7 +22,7 @@ function AboutGym() {
   ];
 
   useEffect(() => {
-      axios.get(BASE_URL + ABOUT_GYM_API + `/${selectedOption}`)
+      axios.get(ABOUT_GYM_API + `/${selectedOption}`)
         .then(response => {
           setGymData(response.data);
         })
