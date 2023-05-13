@@ -1,15 +1,20 @@
+
 .container {
     margin: auto;
-    padding: 1rem;
+    padding: 2px;
     width: 300px;
     height: auto;
+    align-items: center;
     background-color: #8fc3b7;
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: sans-serif;
   }
   
   .heading {
-    margin-top: 0;
+    margin-top: 100px;
   }
   
   .list {

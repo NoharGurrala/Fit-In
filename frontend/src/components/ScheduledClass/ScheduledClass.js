@@ -69,7 +69,7 @@ function ScheduledClass() {
               <td>{scheduledClass.city}</td>
               <td>{scheduledClass.time}</td>
               <td>
-          <button onClick={() => insertIndividualClass(scheduledClass)}>Insert</button>
+          <button onClick={() => insertIndividualClass(scheduledClass)}>Join</button>
         </td>
             </tr>
           ))}

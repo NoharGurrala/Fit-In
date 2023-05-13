@@ -28,7 +28,7 @@ function NavigationBar() {
             <>
             
               {/* <Link to="/about" className={styles.link}>Home</Link> */}
-              <Link to="/about" className={styles.link}>About Get Fit</Link>
+              <Link to="/about" className={styles.link}>About Fit-In</Link>
               <div className={styles.dropdown}>
               <button className={styles.dropbtn}>Admin</button>
               <div className={styles.dropdownContent}>
@@ -54,7 +54,7 @@ function NavigationBar() {
             // User navigation links
             <>
               
-              <Link to="/about" className={styles.link}>About Get Fit</Link>
+              <Link to="/about" className={styles.link}>About Fit-In</Link>
               <div className={styles.dropdown}>
                 <button className={styles.dropbtn}>User</button>
                 <div className={styles.dropdownContent}>
@@ -72,7 +72,7 @@ function NavigationBar() {
           // Navigation links for non-logged-in users
           <>
             
-            <Link to="/about" className={styles.link}>About Gym</Link>
+            <Link to="/about" className={styles.link}>About Our Location</Link>
             <Link to="/login" className={styles.link}>Login</Link>
           </>
         )}

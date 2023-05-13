@@ -3,7 +3,7 @@
     padding: 1rem;
     width: auto;
     height: auto;
-    background-color: #8fc3b7;
+    background: linear-gradient(90deg, rgb(151, 196, 232) 0%, rgb(13, 174, 218) 3%, rgb(26, 99, 216) 100%);
     border-radius: 0.5rem;
     font-family: sans-serif;
   }
@@ -40,7 +40,7 @@
     padding-left: 30px;
     padding-right: 40px;
     align-items: center;
-    background-color: #a2def6d6;
+    background: linear-gradient(90deg, rgb(212, 165, 121) 0%, rgb(243, 197, 181) 3%, rgb(229, 123, 123) 100%);
     border-radius: 50px;
     width: 33%;
   }
@@ -50,7 +50,7 @@
     padding-left: 30px;
     padding-right: 40px;
     align-items: center;
-    background-color: #c7d8a5;
+    background: linear-gradient(90deg, #c9dda0 0%, rgb(232, 246, 190) 3%, rgb(235, 226, 152) 100%);
     border-radius: 50px;
     width: 33%;
   }
@@ -60,7 +60,7 @@
     padding-left: 30px;
     padding-right: 40px;
     align-items: center;
-    background-color: #e0bdbd;
+    background: linear-gradient(90deg, #719e8f 0%, rgb(91, 219, 172) 3%, rgb(75, 130, 166) 100%);
     border-radius: 50px;
     width: 33%;
   }
