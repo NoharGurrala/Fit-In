@@ -58,12 +58,6 @@ Programminators
 ![UseCase](https://github.com/NoharGurrala/Test_202_1/assets/10120704/646a61af-26db-4fe3-ad4f-4cd0b81b1c21)
 
 
-### Database Design Diagram
-
-
-### Deployment Diagram
-<img width="468" alt="Architecture" src="">
-
 ### UI Wireframes
 [UIWireframe](https://github.com/NoharGurrala/Test_202_1/assets/10120704/3be7c06b-b7ee-4f70-a332-2c8759fdd745)
 
