@@ -27,6 +27,7 @@ function ScheduledClass() {
   const insertIndividualClass = async (row) => {
     const booking = {
       "email": localStorage.getItem('email'),
+      "title": row.title,
       "city": row.city,
       "time": row.time,
       "date": row.date
