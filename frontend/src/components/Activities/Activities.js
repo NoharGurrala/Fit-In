@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
-
+import axios from '../../axios/axiosInstance';
 import styles from "./Activities.module.css";
 
 import BarChart from "../BarChart/BarChart";
 import LineGraph from "../LineGraph/LineGraph";
 
-const BASE_URL = "http://localhost:3001";
 const ACTIVITIES_API = "/activities";
 
 function Activities() {

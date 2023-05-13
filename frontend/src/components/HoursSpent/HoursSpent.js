@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 import styles from "./HoursSpent.module.css";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 
-const BASE_URL = "http://localhost:3001";
+
 const RECORDS_API = "/hoursspent";
 const RECORDS_TIME_API = "/hoursspent/time";
 

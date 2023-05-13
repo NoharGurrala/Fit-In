@@ -1,8 +1,8 @@
 import React, { useState, useEffect  } from "react";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 import styles from "./FreeTrial.module.css";
 
-const BASE_URL = "http://localhost:3001";
+
 const FREE_TRIAL_API = "/free-trial";
 
 function FreeTrial() {

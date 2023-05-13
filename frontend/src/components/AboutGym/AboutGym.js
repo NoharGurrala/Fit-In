@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 
 import styles from "./AboutGym.module.css"; // import CSS module
 
 import Dropdown from "../Dropdown/Dropdown";
 
-const BASE_URL = "http://localhost:3001";
 const ABOUT_GYM_API = "/aboutgym";
 
 function AboutGym() {

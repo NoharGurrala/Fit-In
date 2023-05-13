@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 
 import styles from "./AdminPanel.module.css";
 
-const BASE_URL = "http://localhost:3001";
+
 const DASHBOARD_API = "/admin-panel";
 
 function AdminPanel() {

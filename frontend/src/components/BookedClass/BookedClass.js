@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import styles from "./BookedClass.module.css";
+import axios from '../../axios/axiosInstance';
 
-const BASE_URL = "http://localhost:3001";
 const BOOKED_CLASS_API = "/booked-class/fetch";
 
 function BookedClass() {

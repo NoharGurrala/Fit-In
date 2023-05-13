@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import styles from "./CheckIn.module.css";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 
-const BASE_URL = "http://localhost:3001";
 const CHECK_IN_API = "/check-in";
 
 function CheckIn() {

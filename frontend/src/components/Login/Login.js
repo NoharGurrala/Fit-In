@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import axios from '../../axios/axiosInstance';
 import styles from './Login.module.css';
 import { useAuth } from "../AuthContext/AuthContext";
 import { useNavigate } from "react-router-dom";
 
-const BASE_URL = 'http://localhost:3001';
 
 const Login = () => {
   const { login } = useAuth();

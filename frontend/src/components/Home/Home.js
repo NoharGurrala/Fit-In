@@ -2,9 +2,8 @@ import React from 'react';
 import './Home.module.css';
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
+import axios from '../../axios/axiosInstance';
 
-
-const BASE_URL = "http://localhost:3001";
 const ABOUT_GYM_API = "/";
 
 

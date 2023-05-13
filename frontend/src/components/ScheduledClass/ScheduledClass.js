@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 import styles from "./ScheduledClass.module.css";
 
-const BASE_URL = "http://localhost:3001";
 const SCHEDULED_CLASS_API = "/scheduled-class";
 const INSERT_INDIVIDUAL_CLASS_API = '/booked-class';
 
@@ -69,15 +68,15 @@ function ScheduledClass() {
               <td>{scheduledClass.city}</td>
               <td>{scheduledClass.time}</td>
               <td>
-          <button onClick={() => insertIndividualClass(scheduledClass)}>Join</button>
-        </td>
+                <button onClick={() => insertIndividualClass(scheduledClass)}>Join</button>
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
   );
-  
+
 }
 
 export default ScheduledClass;

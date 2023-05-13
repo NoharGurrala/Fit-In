@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import styles from "./CheckOut.module.css";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 
-const BASE_URL = "http://localhost:3001";
 const CHECK_OUT_API = "/check-out";
 
 function CheckOut() {

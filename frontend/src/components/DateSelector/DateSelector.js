@@ -1,7 +1,7 @@
 // DateSelector.js
 
 import React, { useState } from 'react';
-import axios from 'axios';
+import axios from '../../axios/axiosInstance';
 
 const DateSelector = ({ onSchedulesFetched }) => {
   const [selectedDate, setSelectedDate] = useState('');

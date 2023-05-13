@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import axios from 'axios';
-import styles from './CancelFreeTrial.module.css';
 
-const BASE_URL = 'http://localhost:3001';
+import styles from './CancelFreeTrial.module.css';
+import axios from '../../axios/axiosInstance';
 const CANCEL_FREE_TRIAL_API = '/cancel-free-trial';
 
 const CancelFreeTrial = () => {

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import axios from "axios";
+import axios from '../../axios/axiosInstance';
 import styles from "./Enroll.module.css";
 
-const BASE_URL = "http://localhost:3001";
+
 const ENROLL_API = "/enroll";
 
 function Enroll() {
