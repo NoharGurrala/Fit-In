@@ -15,7 +15,7 @@ function BookedClass() {
           "email": email
         };
 
-        const response = await axios.post(`${BASE_URL}${BOOKED_CLASS_API}`, json);
+        const response = await axios.post(`${BOOKED_CLASS_API}`, json);
         setBookedClasses(response.data);
       }
     };

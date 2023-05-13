@@ -15,13 +15,13 @@ function HoursSpentGraph() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`${BASE_URL}${RECORDS_API}`);
+        const response = await axios.get(`${RECORDS_API}`);
         setChartData(response.data);
       } catch (error) {
         setError("An error occurred while fetching data");
       }
       try {
-        const response = await axios.get(`${BASE_URL}${RECORDS_TIME_API}`);
+        const response = await axios.get(`${RECORDS_TIME_API}`);
         setChartTimeData(response.data);
       } catch (error) {
         setError("An error occurred while fetching data");

@@ -13,7 +13,7 @@ function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`${BASE_URL}${DASHBOARD_API}`);
+        const response = await axios.get(`${DASHBOARD_API}`);
         setData(response.data.result);
       } catch (error) {
         console.error("Error fetching data:", error);

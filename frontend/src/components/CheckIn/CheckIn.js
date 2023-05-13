@@ -18,7 +18,7 @@ function CheckIn() {
         total: 1,
       };
       try {
-        await axios.post(`${BASE_URL}${CHECK_IN_API}`, json);
+        await axios.post(`${CHECK_IN_API}`, json);
         alert("Check in submitted successfully!");
         setCheckIn("");
         setEmail("");

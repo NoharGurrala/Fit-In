@@ -13,8 +13,8 @@ function AdminPanel() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log(`${BASE_URL}${DASHBOARD_API}`);
-        const response = await axios.get(`${BASE_URL}${DASHBOARD_API}`);
+        console.log(`${DASHBOARD_API}`);
+        const response = await axios.get(`${DASHBOARD_API}`);
         setData(response.data.result);
       } catch (error) {
         console.error("Error fetching data:", error);
