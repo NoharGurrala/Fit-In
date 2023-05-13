@@ -51,7 +51,7 @@ Programminators
 
 
 ### Architecture Diagram
-![UseCase](https://github.com/NoharGurrala/Test_202_1/assets/10120704/abb11af2-073a-4f41-884c-6b41629d7860)
+<img width="622" alt="ArchitecctureDiag" src="https://github.com/NoharGurrala/Test_202_1/assets/10120704/cc080973-2613-4a8c-aaed-94abc33be66b">
 
 
 ## Use Case Diagram
